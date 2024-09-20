@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.menuIcon{
+    display: none;
+}
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 40px;
+flex-wrap: wrap;
+}
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.menu ul{
+    display: flex;
+gap: 10px;
+list-style: none;
+}
+.menu a{
+    color: #002;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+@media only screen and (max-width:500px){
+    .menu{
+        position: fixed;
+        width: 30%;
+        background-color: #002;
+        height: 100vh;
+        top: 0px;
+        right: 0px;
+        padding: 10px 20px;
+        display: none;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu a{
+        flex-direction: column;
+    }
+    .menuIcon{
+        display: inline;
+        width: 40px;
+        cursor: pointer;
+    }
+    .menuIcon img{
+        width: 100%;
+    }
+    .menuShow{
+       display:block;
+    }
+}

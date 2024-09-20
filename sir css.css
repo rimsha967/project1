@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.webinfo{
+   width: 40%;
+}
+.webpic img{
+    width: 100%;
+}
+main{
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.webinfo h1{
+    font-size: 70px;
+    font-family: fantasy;
+}
+.webinfo p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.webinfo button{
+    all:unset;
+    background-color: rgb(132,114,12);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px blueviolet;
+}
+.webinfo button:active{
+    box-shadow: none;
+}
